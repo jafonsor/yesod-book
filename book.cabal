@@ -115,3 +115,4 @@ executable mform
   ghc-options:         -main-is MForm
   build-depends:       base >= 4.7 && < 5
                      , yesod
+                     , text
