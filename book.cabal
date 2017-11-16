@@ -116,3 +116,12 @@ executable mform
   build-depends:       base >= 4.7 && < 5
                      , yesod
                      , text
+
+executable iform
+  hs-source-dirs:      src
+  main-is:             IForm.hs
+  default-language:    Haskell2010
+  ghc-options:         -main-is IForm
+  build-depends:       base >= 4.7 && < 5
+                     , yesod
+                     , text
